@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
  
 }
+
+
