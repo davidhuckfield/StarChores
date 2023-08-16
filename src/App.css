@@ -59,8 +59,8 @@
   font-family:"Star Jedi Outline";
 }
 
-.logo {
-  width:300px;
-  margin:20px;
+.bodytext {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:yellow;
 }
 

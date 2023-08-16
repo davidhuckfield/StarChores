@@ -1,0 +1,10 @@
+.Header {
+    background-color: blue;
+}
+
+.logo {
+    width:200px;
+    margin:20px;
+    border-style: dotted;
+    border-color: white;
+  }
