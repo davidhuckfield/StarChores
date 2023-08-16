@@ -1,10 +1,59 @@
 .Header {
     background-color: blue;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
 }
+
+@font-face {
+    font-family: "Star Jedi";
+    src:url('./fonts/StarJedi-DGRW.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+  }
+  
+  @font-face {
+    font-family: "Star Jedi Hollow";
+    src:url("./fonts/StarJediHollow-A4lL.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+  }
+  
+  @font-face {
+    font-family: "Star Jedi Outline";
+    src:url("./fonts/StarJediOutline-y0xm.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+  }
+  
+  @font-face {
+    font-family: "Star Jedi Rounded";
+    src:url("./fonts/StarJediRounded-jW3R.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+  }
+
+  .navbar {
+    font-family: "Star Jedi";
+    color: rgb(254,197,1);
+    list-style-type: none;
+    display:flex;
+    border-style: dotted;
+    border-color: white;
+  }
+
+  .navbar li {
+    margin:10px;
+    border-style: dotted;
+    border-color: white;
+  }
 
 .logo {
     width:200px;
-    margin:20px;
+    margin:10px;
     border-style: dotted;
     border-color: white;
   }

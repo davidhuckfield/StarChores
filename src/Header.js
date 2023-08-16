@@ -7,7 +7,13 @@ function Header() {
     <div className="Header">
 
       <img className="logo" src={TestLogo} alt="Star Chores Logo" />
-      
+      <ul className="navbar">
+        <li>about</li>
+        <li>contact</li>
+        <li>services</li>
+        <li>faq</li>
+      </ul>
+
     </div>
   );
 }
