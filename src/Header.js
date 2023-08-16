@@ -1,5 +1,4 @@
 import './Header.css';
-import FinalLogo from "./images/Final_Logo.svg"
 import TestLogo from "./images/Test_Logo.svg"
 
 function Header() {
