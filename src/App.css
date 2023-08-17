@@ -1,6 +1,17 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+
 .App {
+  height:100%;
   text-align: center;
   background-color: black;
+  background-image: url("./images/stars_background2_50.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,22 +48,22 @@
 
 .hollow {
   font-family: "Star Jedi Hollow";
-  color:yellow;
+  color: rgb(254,197,1);
 }
 
 .standard {
   font-family: "Star Jedi";
-  color:red;
+  color: rgb(254,197,1);
 }
 
 .rounded {
   font-family: "Star Jedi Rounded";
-  color:green;
+  color: rgb(254,197,1);
 }
 
 .outline {
   font-family: "Star Jedi Outline";
-  color:blue;
+  color: rgb(254,197,1);
 }
 
 .testing {
@@ -61,6 +72,6 @@
 
 .bodytext {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:yellow;
+  color: rgb(254,197,1);
 }
 

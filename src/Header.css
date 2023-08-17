@@ -1,13 +1,20 @@
 .Header {
-    background-color: black;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align:center;
     justify-content: center;
     align-items:center;
     margin:0px;
-    border-style: dotted;
-    border-color: white;
+    padding:0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.logos {
+  display:flex;
+  flex-direction: row;
+  margin:5px;
 }
 
 @font-face {
@@ -43,19 +50,22 @@
     color: rgb(254,197,1);
     list-style-type: none;
     display:flex;
-    border-style: dotted;
-    border-color: white;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
   }
 
   .navbar li {
-    margin:10px;
-    border-style: dotted;
-    border-color: white;
+    margin:5px 10px 5px 10px;
+    font-size:25px;
   }
 
-.logo {
-    width:200px;
-    margin:10px;
-    border-style: dotted;
-    border-color: white;
+.textlogo {
+    height:60px;
+    margin:0px;
+  }
+
+  .imagelogo {
+    height:60px;
+    margin:0px;
   }
