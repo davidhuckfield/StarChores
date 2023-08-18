@@ -12,6 +12,8 @@ html, body {
   background-image: url("./images/stars_background2_50.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display:flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -49,21 +51,25 @@ html, body {
 .hollow {
   font-family: "Star Jedi Hollow";
   color: rgb(254,197,1);
+  font-size:0.7em;
 }
 
 .standard {
   font-family: "Star Jedi";
   color: rgb(254,197,1);
+  font-size:0.7em;
 }
 
 .rounded {
   font-family: "Star Jedi Rounded";
   color: rgb(254,197,1);
+  font-size:0.7em;
 }
 
 .outline {
   font-family: "Star Jedi Outline";
   color: rgb(254,197,1);
+  font-size:0.7em;
 }
 
 .testing {
