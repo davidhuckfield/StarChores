@@ -6,7 +6,7 @@ import ImageLogo from "../images/Image_Logo.png"
 
 function Header() {
   return (
-    <header>
+    <header className="Header">
       <div className="logos">
         <img className="imagelogo" src={ImageLogo} alt="Star Chores Logo Cartoon" />
         <img className="textlogo" src={TextLogo} alt="Star Chores Logo Text" />

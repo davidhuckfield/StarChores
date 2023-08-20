@@ -68,6 +68,19 @@
     font-size:4vh;
   }
 
+  .navbar li:hover {
+    color: rgb(255,255,255);
+    cursor: pointer;
+  }
+
+  .navbar li:active {
+    color: rgb(255,255,255);
+  }
+
+  .navbar li:visited {
+    color: rgb(255,255,255);
+  }
+
 .textlogo {
     height:12vh;
     margin:0px;
