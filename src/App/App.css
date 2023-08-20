@@ -9,7 +9,7 @@ html, body {
   height:100%;
   text-align: center;
   background-color: black;
-  background-image: url("./images/stars_background2_50.jpg");
+  background-image: url("../images/stars_background2_50.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display:flex;
@@ -22,28 +22,28 @@ html, body {
 
 @font-face {
   font-family: "Star Jedi";
-  src:url('./fonts/StarJedi-DGRW.ttf') format('truetype');
+  src:url('../fonts/StarJedi-DGRW.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face {
   font-family: "Star Jedi Hollow";
-  src:url("./fonts/StarJediHollow-A4lL.ttf") format("truetype");
+  src:url("../fonts/StarJediHollow-A4lL.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face {
   font-family: "Star Jedi Outline";
-  src:url("./fonts/StarJediOutline-y0xm.ttf") format("truetype");
+  src:url("../fonts/StarJediOutline-y0xm.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face {
   font-family: "Star Jedi Rounded";
-  src:url("./fonts/StarJediRounded-jW3R.ttf") format("truetype");
+  src:url("../fonts/StarJediRounded-jW3R.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
 }

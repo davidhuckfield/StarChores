@@ -1,22 +1,24 @@
+import React from 'react';
+import { Link } from "react-router-dom";
 import './Header.css';
-import TextLogo from "./images/Text_Logo.svg"
-import ImageLogo from "./images/Image_Logo.png"
+import TextLogo from "../images/Text_Logo.svg"
+import ImageLogo from "../images/Image_Logo.png"
 
 function Header() {
   return (
-    <div className="Header">
+    <header>
       <div className="logos">
         <img className="imagelogo" src={ImageLogo} alt="Star Chores Logo Cartoon" />
         <img className="textlogo" src={TextLogo} alt="Star Chores Logo Text" />
       </div>
       <ul className="navbar">
-        <li>about</li>
-        <li>contact</li>
-        <li>services</li>
-        <li>faq</li>
+        <li><Link to="/about">about</Link></li>
+        <li><Link to="/contact">contact</Link></li>
+        <li><Link to="/services">services</Link></li>
+        <li><Link to="/faq">faq</Link></li>
       </ul>
 
-    </div>
+      </header>
   );
 }
 

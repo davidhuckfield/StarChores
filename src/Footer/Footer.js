@@ -1,5 +1,5 @@
 import './Footer.css';
-import AtSymbol from "./images/at_symbol.svg"
+import AtSymbol from "../images/at_symbol.svg"
 
 function Footer() {
   return (
