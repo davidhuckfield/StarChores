@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import './Header.css';
 import TextLogo from "../images/Text_Logo.svg"
 import ImageLogo from "../images/Image_Logo.png"
-import About from "../images/about.svg"
-import Contact from "../images/contact.svg"
-import Services from "../images/services.svg"
-import FAQ from "../images/faq.svg"
+import AboutButton from "../NavButtons/AboutButton"
+import ContactButton from "../NavButtons/ContactButton"
+import ServicesButton from "../NavButtons/ServicesButton"
+import FAQButton from "../NavButtons/FAQButton"
 
 function Header() {
   return (
@@ -16,10 +16,10 @@ function Header() {
         <img className="textlogo" src={TextLogo} alt="Star Chores Logo Text" />
       </div>
       <ul className="navbar">
-        <li><Link to="/about"><img className="about" src={About} alt="About Us" /></Link></li>
-        <li><Link to="/contact"><img className="contact" src={Contact} alt="Contact Us" /></Link></li>
-        <li><Link to="/services"><img className="services" src={Services} alt="Our Services" /></Link></li>
-        <li><Link to="/faq"><img className="faq" src={FAQ} alt="Frequently Asked Questions" /></Link></li>
+        <li><Link to="/about"><AboutButton /></Link></li>
+        <li><Link to="/contact"><ContactButton /></Link></li>
+        <li><Link to="/services"><ServicesButton /></Link></li>
+        <li><Link to="/faq"><FAQButton /></Link></li>
       </ul>
 
       </header>

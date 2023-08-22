@@ -1,12 +1,6 @@
 .Home {
     display:flex;
     flex-direction: column;
-}
-
-.svgbuttons {
-    height: 10px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: white;
-    fill: #ad3d3d;
+    align-items: center;
+    justify-content: center;
 }
