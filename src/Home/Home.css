@@ -1,13 +1,12 @@
-.img {
-    border-style:solid;
-    border-width:0.5px;
-    border-color:yellow;
+.Home {
+    display:flex;
+    flex-direction: column;
 }
 
-.testicon {
-    height: 100px;
+.svgbuttons {
+    height: 10px;
     border-style: solid;
     border-width: 0.5px;
     border-color: white;
-    fill: #FFFFFF !important;
+    fill: #ad3d3d;
 }

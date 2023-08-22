@@ -32,29 +32,15 @@
 
   .navbar img {
     width:100%;
+    height:4vh;
   }
 
   .navbar li {
     margin:0px 10px 0px 10px;
-    width:25%;
-    min-height:2vh;
   }
 
   .navbar li a {
     text-decoration: none;
-  }
-
-  .navbar li a:active {
-    color: rgb(254,197,1);
-  }
-
-  .navbar li a:visited {
-    color: rgb(254,197,1);
-  }
-
-  .navbar li a:hover {
-    color: rgb(255, 225, 126);
-    cursor: pointer;
   }
 
 .textlogo {

@@ -1,11 +1,17 @@
 import './Home.css';
-import TestIcon from "../images/aboutcopy.svg"
+import AboutButton from "../NavButtons/AboutButton.js"
+import ContactButton from "../NavButtons/ContactButton.js"
+import FAQButton from "../NavButtons/FAQButton.js"
+import ServicesButton from "../NavButtons/ServicesButton.js"
 
 function Home() {
   return (
     <div className="Home">
         <p>This is the home page</p>
-        <img className="testicon" src={TestIcon} alt="Test Icon" />
+        <AboutButton />
+        <ContactButton />
+        <FAQButton />
+        <ServicesButton />
     </div>
   );
 }
