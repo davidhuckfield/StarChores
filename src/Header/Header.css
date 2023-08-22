@@ -36,7 +36,11 @@
 }
 
   .svgbuttons:hover {
-    fill: rgb(255, 228, 138);
+    fill: rgb(253, 223, 121);
+}
+
+.svgbuttons:active {
+  fill: rgb(252, 235, 177);
 }
 
   .navbar li {
