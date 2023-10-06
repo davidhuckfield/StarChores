@@ -50,7 +50,7 @@ button {
     border:none;
     border-radius:5px;
     color:rgb(254,197,1);
-    box-shadow: 0 8px 8px rgba(254,197,1,0.5)
+    box-shadow: 3px 3px 3px rgba(254,197,1,0.5)
 }
 
 button:hover {
