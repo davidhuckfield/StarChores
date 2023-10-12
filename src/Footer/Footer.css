@@ -19,11 +19,16 @@
     
 }
 
-img {height:12px;}
+img {height:45%;}
 
 .emailaddress {
     display:flex;
     flex-direction: row;
     align-items:center;
     justify-content: space-evenly;
+    height:1.5rem;
+}
+
+a {
+    text-decoration:none;
 }
