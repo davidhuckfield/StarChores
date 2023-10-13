@@ -19,8 +19,12 @@
     align-items: center;
     justify-content: center;
     width:75%;
-    margin:0;
+    margin:10px auto 10px auto;
+    padding:5px;
     font-size:0.8rem;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px rgb(254,197,1);
+    border-radius:10px;
 }
 
 #contactform {
@@ -31,6 +35,9 @@
     width:75%;
     margin: 10px auto 10px auto;
     font-size:0.8rem;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px rgb(254,197,1);
+    border-radius:10px;
 }
 
 input {
