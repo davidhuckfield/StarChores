@@ -1,0 +1,39 @@
+.Services {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+#serviceslist{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px rgb(254,197,1);
+    border-radius:10px;
+}
+
+.servicestext {
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px rgb(254,197,1);
+    border-radius:10px;
+    box-sizing:border-box;
+    display:inline-block;
+    flex-direction:column;
+    margin:0px auto;
+    align-self:flex-start;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0;
+    max-width:50%;
+}
