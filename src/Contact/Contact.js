@@ -12,8 +12,12 @@ function Contact() {
 
       <form name="contact" id="contact" netlify>
         <h1>SEND US A MESSAGE</h1>
+        <input type="hidden" name="contact" value="contact" />
+        <label for="name">Name</label>
         <input type="text" name="name" id="name" placeholder="Name" required/>
+        <label for="email">Email</label>
         <input type="text" name="email" id="email" placeholder="Email" required/>
+        <label for="message">Message</label>
         <input type="text" name="message" id="message" placeholder="Message" required/>
         <button type="submit">SUBMIT</button>
       </form>
