@@ -10,7 +10,7 @@ function Contact() {
         <p>Address: 123 Skywalker Street, Tattooine, SW1 1AA</p>
       </div>
 
-      <form name="contactform" id="contactform" netlify>
+      <form name="contact" id="contact" netlify>
         <h1>SEND US A MESSAGE</h1>
         <input type="text" name="name" id="name" placeholder="Name" required/>
         <input type="text" name="email" id="email" placeholder="Email" required/>
