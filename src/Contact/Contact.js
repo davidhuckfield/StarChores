@@ -12,7 +12,7 @@ function Contact() {
 
       <form name="contact" method="POST" id="contact" data-netlify="true">
         <h1>SEND US A MESSAGE</h1>
-        <input type="hidden" name="contact" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
         <label for="name">Name</label>
         <input type="text" name="name" id="name" placeholder="Name" required/>
         <label for="email">Email</label>
