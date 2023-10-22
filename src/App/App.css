@@ -1,5 +1,6 @@
 :root {
   --standardyellowtext: rgb(254,197,1);
+  --texthover: #FFEECA;
   --blueaccent: rgb(97, 206, 226);
   --boxbackground: rgba(42, 40, 37, 0.8);
 }

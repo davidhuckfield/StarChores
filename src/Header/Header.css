@@ -8,7 +8,7 @@
     padding:0px;
     border-style:solid;
     border-width:0 0 0.5px 0;
-    border-color:rgb(104, 80, 0);
+    border-color:var(--blueaccent);
 }
 
 .logos {
@@ -32,15 +32,15 @@
   .svgbuttons {
     height: 4.5vh;
     max-width:100%;
-    fill: rgb(254,197,1);
+    fill: var(--standardyellowtext);
 }
 
   .svgbuttons:hover {
-    fill: rgb(253, 223, 121);
+    fill: var(--texthover);
 }
 
 .svgbuttons:active {
-  fill: rgb(252, 235, 177);
+  fill: var(--texthover);
 }
 
   .navbar li {
