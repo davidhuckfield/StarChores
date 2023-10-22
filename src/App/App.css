@@ -1,9 +1,13 @@
+:root {
+  --standardyellowtext: rgb(254,197,1);
+}
+
 html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevent scrolling */
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
 }
 
 .App {
@@ -51,25 +55,25 @@ html, body {
 
 .hollow {
   font-family: "Star Jedi Hollow";
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
   font-size:0.7em;
 }
 
 .standard {
   font-family: "Star Jedi";
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
   font-size:0.7em;
 }
 
 .rounded {
   font-family: "Star Jedi Rounded";
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
   font-size:0.7em;
 }
 
 .outline {
   font-family: "Star Jedi Outline";
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
   font-size:0.7em;
 }
 
@@ -79,6 +83,6 @@ html, body {
 
 .bodytext {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(254,197,1);
+  color: var(--standardyellowtext);
 }
 
