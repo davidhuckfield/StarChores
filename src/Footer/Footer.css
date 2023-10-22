@@ -5,17 +5,14 @@
     justify-content: space-evenly;
     align-items:center;
     margin:50px 0 0 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
     width:100%;
     position:absolute;
     bottom:0px;
     left:0px;
     border-style:solid;
     border-width:0.5px 0 0 0;
-    border-color:rgb(104, 80, 0);
-    background-color: rgba(0, 0, 0, 0.8);
+    border-color:var(--blueaccent);
+    background-color: var(--boxbackground);
 }
 
 img {height:45%;}
