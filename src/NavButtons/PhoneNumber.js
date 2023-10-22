@@ -2,9 +2,9 @@ function PhoneNumber () {
     return (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 271.758 52.066"
+        viewBox="0 0 83.912 8.607"
         preserveAspectRatio="xMidYMid meet"
-        className="svgbuttons"
+        className="footerbuttons"
         id="phonenumber"
       >
         <g>
