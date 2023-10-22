@@ -12,14 +12,14 @@
     align-items:center;
     padding: 25px;
     margin: 10px;
-    background-color: rgba(0,0,0,0.7);
-    border: solid 1px rgb(254,197,1);
+    background-color: var(--boxbackground);
+    border: solid 1px var(--blueaccent);
     border-radius:10px;
 }
 
 .AboutImage {
     width:40%;
-    border:1px solid rgb(254,197,1);
+    border:1px solid var(--blueaccent);
     border-radius:10px;
     overflow:hidden;
     /* below is to remove the white space below the image */
