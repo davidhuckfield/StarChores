@@ -3,7 +3,7 @@ import './Services.css';
 function Services() {
   return (
     <div className="Services">
-        <h1>Our services include</h1>
+        <h1>OUR SERVICES INCLUDE:</h1>
           <ul id="serviceslist">
             <li>Window Cleaning</li>
             <li>Traditional & Water fed pole Methods</li>

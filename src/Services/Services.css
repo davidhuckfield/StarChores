@@ -16,13 +16,14 @@
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: rgba(0,0,0,0.7);
-    border: solid 1px rgb(254,197,1);
+    border: solid 1px var(--blueaccent);
     border-radius:10px;
+    list-style-type:square;
 }
 
 .servicestext {
     background-color: rgba(0,0,0,0.7);
-    border: solid 1px rgb(254,197,1);
+    border: solid 1px var(--blueaccent);
     border-radius:10px;
     display:flex;
     flex-direction:column;
@@ -37,4 +38,9 @@ p {
     margin: 0 auto;
     padding: 0;
     width:100%;
+}
+
+h1 {
+    margin:10px 0 0 0;
+    font-size:1.5rem;
 }
