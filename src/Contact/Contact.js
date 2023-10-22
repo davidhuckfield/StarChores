@@ -17,8 +17,8 @@ function Contact() {
       </div>
 
       <h1>SEND US A MESSAGE</h1>
-      <form onSubmit = {handleSubmit} method="POST">
-        <label htmlFor="name">Name</label>
+      <form onSubmit = {handleSubmit} method="POST" className="contactform">
+        {/* <label htmlFor="name">Name</label> */}
         <input type="text" name="name" id="name" placeholder="Name" required/>
         <ValidationError 
           prefix="Name" 
@@ -26,7 +26,7 @@ function Contact() {
           errors={state.errors}
         />  
 
-        <label for="email">Email</label>
+        {/* <label for="email">Email</label> */}
         <input type="text" name="email" id="email" placeholder="Email" required/>
         <ValidationError 
           prefix="Email" 
@@ -34,7 +34,7 @@ function Contact() {
           errors={state.errors}
         />
 
-        <label for="message">Message</label>
+        {/* <label for="message">Message</label> */}
         <input type="text" name="message" id="message" placeholder="Message" required/>
         <ValidationError 
           prefix="Message" 
@@ -45,6 +45,7 @@ function Contact() {
         <button type="submit" disabled={state.submitting}>SUBMIT</button>
 
       </form>
+      
 
     </div>
   );
