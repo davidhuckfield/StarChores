@@ -21,8 +21,19 @@ a {
     text-decoration:none;
 }
 
+@media screen and (orientation: landscape) {
+    .footerbuttons {
+        height: 2vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .footerbuttons {
+        height: 2.3vw;
+    }
+}
+
 .footerbuttons {
-    height: 2vh;
     max-width:100%;
     fill: var(--standardyellowtext);
 }
