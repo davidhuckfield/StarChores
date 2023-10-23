@@ -19,6 +19,7 @@
     border: solid 1px var(--blueaccent);
     border-radius:10px;
     list-style-type:square;
+    box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
 .servicestext {
@@ -31,6 +32,7 @@
     align-self:flex-start;
     width:80vw;
     padding:10px 20px;
+    box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
 p {

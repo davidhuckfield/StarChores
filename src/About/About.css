@@ -15,6 +15,7 @@
     background-color: var(--boxbackground);
     border: solid 1px var(--blueaccent);
     border-radius:10px;
+    box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
 .AboutImage {

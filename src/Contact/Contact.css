@@ -25,6 +25,7 @@
     background-color: var(--boxbackground);
     border: solid 1px var(--blueaccent);
     border-radius:10px;
+    box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
 #contactdetails p {
@@ -45,6 +46,7 @@
     border: solid 1px var(--blueaccent);
     border-radius:10px;
     padding:5px 5px 10px 5px;
+    box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
 h1 {
