@@ -1,5 +1,5 @@
 .About {
-    overflow-y:scroll;
+    overflow:hidden;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
@@ -10,12 +10,13 @@
     flex-direction:row;
     justify-content:space-evenly;
     align-items:center;
-    padding: 25px;
+    padding: 10px;
     margin: 10px;
     background-color: var(--boxbackground);
     border: solid 1px var(--blueaccent);
     border-radius:10px;
     box-shadow: 2px 2px 2px var(--blueaccent);
+    max-height:80vh;
 }
 
 .AboutImage {
@@ -25,24 +26,6 @@
     overflow:hidden;
     /* below is to remove the white space below the image */
     line-height:0;
-}
-
-@media (min-width: 768px) {
-    .AboutContainer {
-        display:flex;
-        align-items:center;
-    }
-    .AboutImage {
-        flex:1;
-        margin-right:20px;
-    }
-}
-
-@media (max-width: 767px) {
-    .AboutImage, .AboutText {
-        width:100%;
-        margin-right: 0;
-    }
 }
 
 .AboutImage img {
@@ -55,6 +38,8 @@
     width:100%;
     padding: 0 5px;
     font-size:0.8rem;
+    max-height:80vh;
+    overflow:auto;
 }
 
 h1 {

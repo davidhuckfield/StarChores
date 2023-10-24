@@ -35,8 +35,8 @@
     box-shadow: 2px 2px 2px var(--blueaccent);
 }
 
-p {
-    font-size: 1rem;
+.servicestext p {
+    font-size: 2.5vh;
     margin: 0 auto;
     padding: 0;
     width:100%;
