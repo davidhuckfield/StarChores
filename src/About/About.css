@@ -19,12 +19,30 @@
 }
 
 .AboutImage {
-    width:40%;
+    width:100%;
     border:1px solid var(--blueaccent);
     border-radius:10px;
     overflow:hidden;
     /* below is to remove the white space below the image */
     line-height:0;
+}
+
+@media (min-width: 768px) {
+    .AboutContainer {
+        display:flex;
+        align-items:center;
+    }
+    .AboutImage {
+        flex:1;
+        margin-right:20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .AboutImage, .AboutText {
+        width:100%;
+        margin-right: 0;
+    }
 }
 
 .AboutImage img {
@@ -34,7 +52,7 @@
 }
 
 .AboutText {
-    width:60%;
+    width:100%;
     padding: 0 5px;
     font-size:0.8rem;
 }
