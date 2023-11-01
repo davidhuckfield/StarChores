@@ -34,6 +34,14 @@ function Contact() {
           errors={state.errors}
         />
 
+       {/* <label for="address">Address</label> */}
+       <input type="text" name="address" id="address" placeholder="Address" required/>
+        <ValidationError 
+          prefix="Address" 
+          field="address"
+          errors={state.errors}
+        />
+
         {/* <label for="message">Message</label> */}
         <input type="text" name="message" id="message" placeholder="Message" required/>
         <ValidationError 
@@ -41,6 +49,8 @@ function Contact() {
           field="message"
           errors={state.errors}
         />
+
+     
 
         <button type="submit" disabled={state.submitting}>SUBMIT</button>
 
