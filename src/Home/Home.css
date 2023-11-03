@@ -3,9 +3,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:10px auto 10px auto;
+    margin:30px auto 10px auto;
 }
 
 .Home ul {
-    list-style-image: url('../images/bullet.png');
+    list-style-type: none;
+    text-align:left;
+}
+
+.Home ul li:before {
+    content: "";
+    background-image: url('../images/bullet.png');
+    background-size: cover;
+    display:inline-block;
+    width:10px;
+    height:10px;
+    margin-right:5px;
 }
