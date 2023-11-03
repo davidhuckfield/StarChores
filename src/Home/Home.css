@@ -5,3 +5,7 @@
     justify-content: center;
     margin:10px auto 10px auto;
 }
+
+.Home ul {
+    list-style-image: url('../images/bullet.png');
+}
