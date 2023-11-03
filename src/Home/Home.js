@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="Home">
         <p>EXTERIOR PROPERTY CLEANING</p>
-        <ul>
+        <ul id="homepagelist">
           <li>Traditional Window Cleaning</li>
           <li>Water-fed Pole Cleaning</li>
           <li>Gutter Cleaning</li>
