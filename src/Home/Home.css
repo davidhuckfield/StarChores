@@ -13,7 +13,7 @@
 
 .Home ul li:before {
     content: "";
-    background-image: url('../images/bullet.png');
+    background-image: url('../images/bullet.svg');
     background-size: cover;
     display:inline-block;
     width:10px;
