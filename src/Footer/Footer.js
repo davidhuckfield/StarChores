@@ -8,7 +8,7 @@ function Footer() {
       <a href="tel:+447929632287">
       <PhoneNumber />
       </a>
-      <a href="mailto:enquiries@starchores.co.uk">
+      <a href="mailto:starchores@hotmail.com">
       <EmailAddress />
       </a>
     </div>
