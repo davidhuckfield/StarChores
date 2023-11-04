@@ -2,7 +2,7 @@ function EmailAddress () {
     return (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 202.041 8.73"
+        viewBox="-18.635 0 181.202 8.73"
         preserveAspectRatio="xMidYMid meet"
         className="footerbuttons"
         id="emailaddress"
