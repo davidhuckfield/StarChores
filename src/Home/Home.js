@@ -12,6 +12,7 @@ function Home() {
           <li>Fascia & Soffit Cleaning</li>
           <li>Soft Washing</li>
           <li>First Cleans & Maintenance</li>
+          <li>Window Restoration</li>
         </ul>
     </div>
   );
