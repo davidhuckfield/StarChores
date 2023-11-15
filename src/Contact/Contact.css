@@ -31,7 +31,7 @@
 #contactdetails p {
     margin: 0;
     color:var(--standardyellowtext);
-    font-size:0.8rem;
+    font-size:1.5rem;
 }
 
 .contactform {

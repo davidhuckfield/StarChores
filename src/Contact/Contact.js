@@ -11,8 +11,8 @@ function Contact() {
     <div className="Contact">
       <div id="contactdetails">
         <h1>CONTACT US</h1>
-        <p>Phone: 07929632287</p>
-        <p>Email:starchores@hotmail.com</p>
+        <p>Phone : 07929632287</p>
+        <p>Email : starchores@hotmail.com</p>
       </div>
 
       <h1>SEND US A MESSAGE</h1>
