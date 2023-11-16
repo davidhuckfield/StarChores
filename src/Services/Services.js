@@ -8,9 +8,9 @@ function Services() {
             <li>Window Cleaning</li>
             <li>Traditional & Water-fed pole Methods</li>
             <li>Conservatory Cleaning</li>
-            <li>Gutter, Fascia & Soffit Clean</li>
-            <li>Gutter Repair or Replace</li>
-            <li>Window Restoration</li>
+            <li>Gutter Cleaning</li>
+            <li>Fascia & Soffit Cleaning</li>
+            <li>Window Restoration Cleans</li>
           </ul>
             {/* <div className="servicestext">
             </div> */}
