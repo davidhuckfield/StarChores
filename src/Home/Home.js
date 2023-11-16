@@ -10,7 +10,6 @@ function Home() {
           <li>Gutter Cleaning</li>
           <li>Conservatory Cleaning</li>
           <li>Fascia & Soffit Cleaning</li>
-          <li>Soft Washing</li>
           <li>First Cleans & Maintenance</li>
           <li>Window Restoration</li>
         </ul>
