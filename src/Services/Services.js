@@ -9,7 +9,6 @@ function Services() {
             <li>Traditional & Water-fed pole Methods</li>
             <li>Conservatory Cleaning</li>
             <li>Gutter, Fascia & Soffit Clean</li>
-            <li>Moss Removal Soft Wash</li>
             <li>Gutter Repair or Replace</li>
             <li>Window Restoration</li>
           </ul>
