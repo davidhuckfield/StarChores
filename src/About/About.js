@@ -1,5 +1,5 @@
 import './About.css';
-import Image from '../images/dummy_image_about.jpg';
+// import Image from '../images/dummy_image_about.jpg';
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
           </div> */}
 
           <div className="AboutText bodytext">
-              <p id="p1">Providing exterior cleaning services.</p>
+              <p id="p1">Providing exterior cleaning services. </p>
 
           </div>
         </div>
