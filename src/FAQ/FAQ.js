@@ -4,7 +4,15 @@ function FAQ() {
   return (
     <div className="FAQ">
         
-    </div>
+<p>Testing<p>  <p>Testing<p> <p>Testing<p> <p>Testing<p><p>Testing<p>
+
+
+<p>Testing<p>  <p>Testing<p> <p>Testing<p> <p>Testing<p><p>Testing<p>
+
+
+<p>Testing<p>  <p>Testing<p> <p>Testing<p> <p>Testing<p><p>Testing<p>
+
+</div>
   );
 }
 
