@@ -3,8 +3,9 @@ import './FAQ.css';
 function FAQ() {
   return (
     <div className="FAQ">
-        <p>FAQ</p>
+       <p>FAQ</p>
     </div>
+
   );
 }
 
