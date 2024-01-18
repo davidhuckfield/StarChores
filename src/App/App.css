@@ -9,13 +9,13 @@
 html, body {
   height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 0 0 6vh 0;
   /* overflow: hidden;  Prevent scrolling */
   color: var(--standardyellowtext);
 }
 
 .App {
-  height:100%;
+  min-height:100vh;
   text-align: center;
   background-color: black;
   background-image: url("../images/stars_background2_50.jpg");
@@ -23,6 +23,11 @@ html, body {
   background-size: cover;
   display:flex;
   flex-direction: column;
+}
+
+.main {
+  flex:1;
+  overflow-y:auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
