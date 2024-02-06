@@ -5,6 +5,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Services from "../Services/Services";
 import FAQ from "../FAQ/FAQ";
+import Prices from "../Prices/Prices";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
   <Route path="/services" element={<Services/>} />
   <Route path="/contact" element={<Contact/>} />
   <Route path="/faq" element={<FAQ/>} />
+  <Route path="/prices" element={<Prices/>} />
 </Routes>
 </div>
   );

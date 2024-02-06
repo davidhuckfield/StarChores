@@ -7,6 +7,7 @@ import AboutButton from "../NavButtons/AboutButton"
 import ContactButton from "../NavButtons/ContactButton"
 import ServicesButton from "../NavButtons/ServicesButton"
 import FAQButton from "../NavButtons/FAQButton"
+import PricesButton from "../NavButtons/PricesButton"
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
         <li><Link to="/contact"><ContactButton /></Link></li>
         <li><Link to="/services"><ServicesButton /></Link></li>
         <li><Link to="/faq"><FAQButton /></Link></li>
+        <li><Link to="/prices"><PricesButton /></Link></li>
       </ul>
 
       </header>
