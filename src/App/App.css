@@ -27,7 +27,7 @@ html, body {
 
 .main {
   flex:1;
-  overflow-y:auto;
+  overflow-y:scroll;
 }
 
 @media (prefers-reduced-motion: no-preference) {

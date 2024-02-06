@@ -1,0 +1,21 @@
+.table {
+    width:80%;
+    border-collapse: collapse;
+    margin:10px auto 10px auto;
+}
+
+.th, .td {
+    padding:8px;
+    border: 1px solid black;
+}
+
+.header, .firstColumn {
+    background-color: rgb(254,197,1);
+    color:black;
+}
+
+.cell {
+    background-color: white;
+    color:black;
+}
+
