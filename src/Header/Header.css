@@ -31,9 +31,10 @@
   }
 
   .svgbuttons {
-    height: 4.5vh;
+    height: 3.5vh;
     max-width:100%;
     fill: var(--standardyellowtext);
+    margin:0 1.5vh 0 1.5vh;
 }
 
   .svgbuttons:hover {
