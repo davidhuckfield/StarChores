@@ -1,5 +1,11 @@
+.Prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .table {
-    width:80%;
+    width: 50%;
     border-collapse: collapse;
     margin:10px auto 10px auto;
 }
@@ -18,4 +24,13 @@
     background-color: white;
     color:black;
 }
+
+@media (max-width: 719px ) {
+    .table {
+        font-size: 9px; 
+    }
+}
+
+
+
 
