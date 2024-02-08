@@ -14,20 +14,18 @@
 
 
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0 0 6vh 0;
-  /* overflow: hidden;  Prevent scrolling */
   color: var(--standardyellowtext);
   width: 100%;
 }
 
 .App {
-  height:100vh;
+  height:100%;
   width: auto;
   text-align: center;
   background-color: black;
-
   display:flex;
   flex-direction: column;
 }
