@@ -3,7 +3,7 @@ import { useTable } from 'react-table';
 
 function AdditionalServicesTable() {
   const data = React.useMemo(() => [
-    { service: 'Terraced', conservatoryExtension: 'No / Yes', gutterClearing: '£50 / £70', gutterFasciaSoffits: '£60 / £70', windowsCleanedInside: 'Use 4-weekly cleaning price for your home & multiply by 2', conservatoryRoof: '£5 per panel – minimum charge £50' },
+    { service: 'Terraced', conservatoryExtension: 'No / Yes', gutterClearing: '£50 / £70', gutterFasciaSoffits: '£60 / £70', windowsCleanedInside: '4-weekly cleaning price multiplied by 2', conservatoryRoof: '£5 per panel – minimum charge £50' },
     { service: '3/4 Bed Semi', conservatoryExtension: 'No / Yes', gutterClearing: '£60 / £80', gutterFasciaSoffits: '£70 / £80', windowsCleanedInside: '', conservatoryRoof: '' },
     { service: '3/4 Bed Det.', conservatoryExtension: 'No / Yes', gutterClearing: '£70 / £90', gutterFasciaSoffits: '£80 / £90', windowsCleanedInside: '', conservatoryRoof: '' },
     { service: '5 Bed', conservatoryExtension: 'No / Yes', gutterClearing: '£80 / £100', gutterFasciaSoffits: '£90 / £100', windowsCleanedInside: '', conservatoryRoof: '' },
