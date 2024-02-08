@@ -18,7 +18,7 @@
 .logos {
   display:flex;
   flex-direction: row;
-  margin:5px auto 10px auto;
+  margin:15px auto 5px auto;
   justify-content: center;
 }
 
@@ -30,7 +30,7 @@
     align-items:center;
     justify-content: space-between;
     min-width:50%;
-    margin:15px auto 5px auto;
+    margin:10px auto 5px auto;
     padding:0px;
   }
 
