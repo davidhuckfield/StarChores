@@ -10,16 +10,22 @@ function Prices() {
     <div className="Prices">
         <h1>Price Guide</h1>
       <h3>Semi Detached</h3>
-      <SemiDetachedTable />
+      <span>
+        <SemiDetachedTable />
+      </span>
       
       <p>Example: Semi-detached 3-bed property with conservatory & extension clean every 8 weeks would be £25 per clean.</p>
-      <p>Please note - these guide prices may vary - if your property is an unusual layout or larger/smaller than average, please contact us to arrange a site visit at your convenience.</p>
+      <p>Please note - these guide prices may vary - if your property is an unusual layout or larger/smaller than average, <br></br>please contact us to arrange a site visit at your convenience.</p>
       
       <h3>Detached</h3>
-      <DetachedTable />
+      <span>
+        <DetachedTable />
+      </span>
       
       <h3>Additional Services</h3>
-      <AdditionalServicesTable />
+      <span>
+        <AdditionalServicesTable />
+      </span>
       
       <p>Please ask for a detailed quote for first clean / restoration cleans:</p>
       <ul>
