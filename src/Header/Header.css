@@ -1,4 +1,7 @@
 .Header {
+  background-image: url("../images/stars_background2_50.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
     display:flex;
     flex-direction: column;
     text-align:center;

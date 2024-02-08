@@ -23,12 +23,11 @@ html, body {
 }
 
 .App {
+  height:100vh;
   width: auto;
   text-align: center;
   background-color: black;
-  background-image: url("../images/stars_background2_50.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
   display:flex;
   flex-direction: column;
 }
