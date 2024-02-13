@@ -25,7 +25,7 @@
     display:flex;
     width:100%;
     align-items:stretch;
-    height:200px;
+    height:auto;
 }
 
 .content p {
@@ -34,8 +34,25 @@
 }
 
 .content img {
-    height:100%;
+    height:25vh;
     width:50%;
     object-fit:cover;
     border-radius:25px;
+    margin-top:20px;
+}
+
+@media (max-width:768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content p, .content img {
+        width: 100%; /* Make text and images take full width */
+        margin-right: 0; /* Remove margin-right from paragraph */
+    }
+
+    .content img {
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
 }
