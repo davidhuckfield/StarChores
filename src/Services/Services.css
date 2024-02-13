@@ -14,6 +14,7 @@
     border:1px solid var(--blueaccent);
     border-radius:25px;
     margin:10px 10px 5px 10px;
+    box-shadow: inset 0 -10px 5px -8px var(--blueaccent);
 }
 
 .service h2 {
@@ -22,42 +23,19 @@
 
 .content {
     display:flex;
-    justify-content:space-between;
     width:100%;
-    gap:20px;
+    align-items:stretch;
+    height:200px;
 }
 
-.content p, .content img {
-    flex:1;
-    max-width:50%;
+.content p {
+    width:50%;
+    margin-right:20px;
 }
 
 .content img {
-    max-height:200px;
+    height:100%;
+    width:50%;
     object-fit:cover;
-}
-
-.servicestext {
-    background-color: rgba(0,0,0,0.7);
-    border: solid 1px var(--blueaccent);
-    border-radius:10px;
-    display:flex;
-    flex-direction:column;
-    margin:0px auto;
-    align-self:flex-start;
-    width:80vw;
-    padding:10px 20px;
-    box-shadow: 2px 2px 2px var(--blueaccent);
-}
-
-.servicestext p {
-    font-size: 2.5vh;
-    margin: 0 auto;
-    padding: 0;
-    width:100%;
-}
-
-h1 {
-    margin:10px 0 0 0;
-    font-size:1.5rem;
+    border-radius:25px;
 }
