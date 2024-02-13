@@ -1,19 +1,18 @@
 import './About.css';
-// import Image from '../images/dummy_image_about.jpg';
 
 function About() {
   return (
     <div className="About">
-        <div className="AboutContainer">
-          {/* <div className="AboutImage">
-            <img src={Image} alt="About Us" />
-          </div> */}
-
-          <div className="AboutText bodytext">
-              <p id="p1">Providing exterior cleaning services. </p>
-
-          </div>
-        </div>
+        <h1>STAR CHORES EXTERIOR PROPERTY CLEANING</h1>
+        <ul id="aboutpagelist">
+          <li>Traditional Window Cleaning</li>
+          <li>Water-fed Pole Cleaning</li>
+          <li>Gutter Cleaning</li>
+          <li>Conservatory Cleaning</li>
+          <li>Fascia & Soffit Cleaning</li>
+          <li>First Cleans & Maintenance</li>
+          <li>Window Restoration</li>
+        </ul>
     </div>
   );
 }
