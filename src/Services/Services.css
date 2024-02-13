@@ -5,22 +5,36 @@
     background-color:black;
 }
 
-#serviceslist{
-    display: flex;
+.service {
+    display:flex;
     flex-direction:column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    width:80vw;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: rgba(0,0,0,0.7);
-    border: solid 1px var(--blueaccent);
-    border-radius:10px;
-    list-style-type:square;
-    box-shadow: 2px 2px 2px var(--blueaccent);
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    border:1px solid var(--blueaccent);
+    border-radius:25px;
+    margin:10px 10px 5px 10px;
+}
+
+.service h2 {
+    margin-bottom:20px;
+}
+
+.content {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    gap:20px;
+}
+
+.content p, .content img {
+    flex:1;
+    max-width:50%;
+}
+
+.content img {
+    max-height:200px;
+    object-fit:cover;
 }
 
 .servicestext {
