@@ -1,7 +1,7 @@
 Star Chores
 Exterior Property Cleaning
 
-This site is a work in progress for a client who runs a Star Wars-themed exterior cleaning company.
+This site is for a client who runs a Star Wars-themed exterior cleaning company.
 
 Tech Stack
 
@@ -11,3 +11,4 @@ The React Table library has been used for the price tables.
 
 Form submission and mailing is handled by a third-party service Formspree.
 
+Plans in progress to build an appointment booking system 
