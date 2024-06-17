@@ -1,7 +1,7 @@
 Star Chores
 Exterior Property Cleaning
 
-http://www.starchores.co.uk
+https://www.starchores.co.uk
 
 This site is for a client who runs a Star Wars-themed exterior cleaning company.
 
