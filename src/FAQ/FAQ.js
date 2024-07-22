@@ -4,7 +4,7 @@ function FAQ() {
 
   return (
     <div className="FAQ">
- 
+ <!--   -->
     </div>
 
   );
